@@ -1,0 +1,131 @@
+<svg viewBox="0 0 960 1388" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+<defs>
+    <marker id="arrowB" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#5b6b79"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1b2733" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f6fb2"/>
+      <stop offset="100%" stop-color="#173f66"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2733"/>
+      <stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="960" height="1388" fill="#f6f8fa"/>
+<text x="480" y="18" text-anchor="middle" font-size="11" letter-spacing="3" fill="#93a1ac" font-weight="600">MAPA DESCRIPTIVO</text>
+<rect x="230" y="30" width="500" height="82" rx="41" fill="url(#headerGrad)" filter="url(#shadow)"/>
+<circle cx="272" cy="71" r="16" fill="#ffffff" opacity="0.15"/>
+<path d="M266,71 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M275,76 l6,6" stroke="#ffffff" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<text x="495" y="66" text-anchor="middle" font-size="21" font-weight="700" fill="#ffffff">LIBROSA</text>
+<text x="495" y="90" text-anchor="middle" font-size="12.5" fill="#bfe0ff">Analisis de audio y musica en Python</text>
+<path d="M400,112 C330,140 300,140 258,168" stroke="#93a1ac" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+<path d="M580,112 C650,140 680,140 705,168" stroke="#93a1ac" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+<rect x="40" y="170" width="430" height="170" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="40" y="170" width="8" height="170" rx="4" fill="#1f6fb2"/>
+<circle cx="86" cy="205" r="18" fill="#e7f1fb"/>
+<circle cx="82" cy="201" r="6" fill="none" stroke="#1f6fb2" stroke-width="2.2"/>
+<line x1="87" y1="206" x2="92" y2="211" stroke="#1f6fb2" stroke-width="2.2" stroke-linecap="round"/>
+<text x="115" y="211" font-size="15" font-weight="700" fill="#173f66">¿PARA QUE SIRVE?</text>
+<text x="65" y="240" font-size="12.5" fill="#3a4854">Libreria de Python para cargar</text>
+<text x="65" y="261" font-size="12.5" fill="#3a4854">audio y extraer caracteristicas</text>
+<text x="65" y="282" font-size="12.5" fill="#3a4854">acusticas: forma de onda,</text>
+<text x="65" y="303" font-size="12.5" fill="#3a4854">espectrograma, tono, timbre,</text>
+<text x="65" y="324" font-size="12.5" fill="#3a4854">tempo y energia.</text>
+<rect x="490" y="170" width="430" height="170" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="490" y="170" width="8" height="170" rx="4" fill="#2ea36b"/>
+<circle cx="536" cy="200" r="12" fill="none" stroke="#2ea36b" stroke-width="2"/>
+<text x="565" y="211" font-size="15" font-weight="700" fill="#1d6b48">CARACTERISTICAS EXTRAIBLES</text>
+<circle cx="516" cy="236" r="3" fill="#2ea36b"/>
+<text x="529" y="240" font-size="12.5" fill="#3a4854">Forma de onda (waveshow)</text>
+<circle cx="516" cy="255" r="3" fill="#2ea36b"/>
+<text x="529" y="259" font-size="12.5" fill="#3a4854">Espectrograma (STFT)</text>
+<circle cx="516" cy="274" r="3" fill="#2ea36b"/>
+<text x="529" y="278" font-size="12.5" fill="#3a4854">MFCC (timbre del sonido)</text>
+<circle cx="516" cy="293" r="3" fill="#2ea36b"/>
+<text x="529" y="297" font-size="12.5" fill="#3a4854">Tempo y beats (ritmo)</text>
+<path d="M255,340 C255,382 420,396 480,410" stroke="#93a1ac" stroke-width="2" fill="none"/>
+<path d="M705,340 C705,382 540,396 480,410" stroke="#93a1ac" stroke-width="2" fill="none"/>
+<circle cx="480" cy="410" r="3.5" fill="#93a1ac"/>
+<text x="480" y="432" text-anchor="middle" font-size="16.5" font-weight="700" fill="#173f66">¿COMO FUNCIONA? — PROCESO</text>
+<rect x="420" y="440" width="120" height="4" rx="2" fill="#7c4dff"/>
+<rect x="40" y="458" width="430" height="112" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="40" y="458" width="8" height="112" rx="4" fill="#7c4dff"/>
+<circle cx="72" cy="458" r="20" fill="#7c4dff" filter="url(#shadow)"/>
+<text x="72" y="464" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">1</text>
+<text x="95" y="491" font-size="14" font-weight="700" fill="#4a2fa8">CARGAR AUDIO</text>
+<text x="65" y="514" font-size="11.5" fill="#3a4854">librosa.load lee el archivo</text>
+<text x="65" y="532" font-size="11.5" fill="#3a4854">y devuelve la señal y su</text>
+<text x="65" y="550" font-size="11.5" fill="#3a4854">frecuencia de muestreo.</text>
+<rect x="490" y="458" width="430" height="112" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="490" y="458" width="8" height="112" rx="4" fill="#7c4dff"/>
+<circle cx="522" cy="458" r="20" fill="#7c4dff" filter="url(#shadow)"/>
+<text x="522" y="464" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">2</text>
+<text x="545" y="491" font-size="14" font-weight="700" fill="#4a2fa8">TRANSFORMADA STFT</text>
+<text x="515" y="514" font-size="11.5" fill="#3a4854">Se divide la señal en</text>
+<text x="515" y="532" font-size="11.5" fill="#3a4854">ventanas y se aplica Fourier</text>
+<text x="515" y="550" font-size="11.5" fill="#3a4854">a cada una (espectrograma).</text>
+<rect x="490" y="640" width="430" height="112" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="490" y="640" width="8" height="112" rx="4" fill="#7c4dff"/>
+<circle cx="522" cy="640" r="20" fill="#7c4dff" filter="url(#shadow)"/>
+<text x="522" y="646" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">3</text>
+<text x="545" y="673" font-size="14" font-weight="700" fill="#4a2fa8">EXTRAER CARACTERISTICAS</text>
+<text x="515" y="696" font-size="11.5" fill="#3a4854">Sobre el espectrograma se</text>
+<text x="515" y="714" font-size="11.5" fill="#3a4854">calculan MFCC, centroide,</text>
+<text x="515" y="732" font-size="11.5" fill="#3a4854">cruces por cero, etc.</text>
+<rect x="40" y="640" width="430" height="112" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="40" y="640" width="8" height="112" rx="4" fill="#7c4dff"/>
+<circle cx="72" cy="640" r="20" fill="#7c4dff" filter="url(#shadow)"/>
+<text x="72" y="646" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">4</text>
+<text x="95" y="673" font-size="14" font-weight="700" fill="#4a2fa8">ANALIZAR / COMPARAR</text>
+<text x="65" y="696" font-size="11.5" fill="#3a4854">Esas metricas sirven para</text>
+<text x="65" y="714" font-size="11.5" fill="#3a4854">clasificar, comparar o</text>
+<text x="65" y="732" font-size="11.5" fill="#3a4854">indexar sonidos.</text>
+<path d="M470,514 C482,514 478,514 490,514" stroke="#93a1ac" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+<path d="M705,570 C705,596 705,614 705,640" stroke="#5b6b79" stroke-width="2.4" fill="none" marker-end="url(#arrowB)"/>
+<path d="M490,696 C480,696 482,696 470,696" stroke="#93a1ac" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+<path d="M255,752 C255,788 460,793 480,797" stroke="#93a1ac" stroke-width="2" fill="none"/>
+<circle cx="480" cy="797" r="3.5" fill="#93a1ac"/>
+<path d="M480,797 L480,822" stroke="#93a1ac" stroke-width="2" fill="none" marker-end="url(#arrowB)"/>
+<text x="480" y="844" text-anchor="middle" font-size="16.5" font-weight="700" fill="#173f66">TIPOS DE ANALISIS QUE SE PUEDEN REALIZAR</text>
+<rect x="380" y="852" width="200" height="4" rx="2" fill="#f2a93b"/>
+<rect x="40" y="870" width="880" height="200" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+<rect x="40" y="870" width="8" height="200" rx="4" fill="#f2a93b"/>
+<circle cx="80" cy="901" r="3.2" fill="#f2a93b"/>
+<text x="93" y="905" font-size="12.5" fill="#3a4854">Duracion y frecuencia de muestreo</text>
+<circle cx="80" cy="929" r="3.2" fill="#f2a93b"/>
+<text x="93" y="933" font-size="12.5" fill="#3a4854">Forma de onda (waveshow)</text>
+<circle cx="80" cy="957" r="3.2" fill="#f2a93b"/>
+<text x="93" y="961" font-size="12.5" fill="#3a4854">Espectrograma (stft)</text>
+<circle cx="80" cy="985" r="3.2" fill="#f2a93b"/>
+<text x="93" y="989" font-size="12.5" fill="#3a4854">MFCC (feature.mfcc)</text>
+<circle cx="80" cy="1013" r="3.2" fill="#f2a93b"/>
+<text x="93" y="1017" font-size="12.5" fill="#3a4854">Cruces por cero (zero_crossing_rate)</text>
+<circle cx="500" cy="901" r="3.2" fill="#f2a93b"/>
+<text x="513" y="905" font-size="12.5" fill="#3a4854">Centroide espectral (brillo)</text>
+<circle cx="500" cy="929" r="3.2" fill="#f2a93b"/>
+<text x="513" y="933" font-size="12.5" fill="#3a4854">Tempo y beats (beat_track)</text>
+<circle cx="500" cy="957" r="3.2" fill="#f2a93b"/>
+<text x="513" y="961" font-size="12.5" fill="#3a4854">Cromagrama (notas musicales)</text>
+<circle cx="500" cy="985" r="3.2" fill="#f2a93b"/>
+<text x="513" y="989" font-size="12.5" fill="#3a4854">Separacion armonica/percusiva</text>
+<circle cx="500" cy="1013" r="3.2" fill="#f2a93b"/>
+<text x="513" y="1017" font-size="12.5" fill="#3a4854">Deteccion de onsets</text>
+<path d="M480,1070 C480,1092 480,1102 480,1120" stroke="#5b6b79" stroke-width="2.4" fill="none" marker-end="url(#arrowB)"/>
+<text x="480" y="1142" text-anchor="middle" font-size="16.5" font-weight="700" fill="#173f66">EJEMPLO PARA CORRER EN LA COMPUTADORA</text>
+<rect x="400" y="1150" width="160" height="4" rx="2" fill="#4ecb85"/>
+<rect x="40" y="1166" width="880" height="172" rx="14" fill="url(#codeGrad)" filter="url(#shadow)"/>
+<circle cx="66" cy="1190" r="6" fill="#ff5f56"/>
+<circle cx="86" cy="1190" r="6" fill="#ffbd2e"/>
+<circle cx="106" cy="1190" r="6" fill="#27c93f"/>
+<text x="480" y="1195" text-anchor="middle" font-size="11.5" fill="#8b98a5">librosa_practica.py</text>
+<text x="65.0" y="1222" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#4ecb85">import librosa</text>
+<text x="65.0" y="1240" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#4ecb85">y, sr = librosa.load('tono_demo.wav')</text>
+<text x="65.0" y="1258" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#ffd479">S = librosa.stft(y)</text>
+<text x="65.0" y="1276" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#ffd479">mfccs = librosa.feature.mfcc(y=y, sr=sr)</text>
+<text x="65.0" y="1294" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#ffd479">tempo, beats = librosa.beat.beat_track(y=y, sr=sr)</text>
+<text x="480" y="1368" text-anchor="middle" font-size="10.5" fill="#93a1ac">Practica: librosa</text>
+</svg>
